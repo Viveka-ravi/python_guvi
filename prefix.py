@@ -11,9 +11,9 @@ for i in range(0,len(string[0])):
     if(flag == False):
         break
     k = 1
-    while(k < n and string[0][i] == string[k][i]):
+    while(k < num and string[0][i] == string[k][i]):
         k+=1
-    if(k == n):
+    if(k == num):
         c+=1
     else:
         flag = False
