@@ -11,5 +11,5 @@ for i in range(0,length):
   temp = str_1[i]
   str_1[i] = str_1[leng - i]
   str_1[leng - i] = temp
-str_2 = str_2.join(str_)
+str_2 = str_2.join(str_1)
 print(int(str_2))
