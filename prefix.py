@@ -1,23 +1,23 @@
 num = int(input())
-string = []
+st1 = []
 for i in range(0,num):
     st = input()
-    string.append(st)
+    st1.append(st)
 
 i = 0
 c = 0
 flag = True
-for i in range(0,len(string[0])):
-    if(flag == False):
+for i in range(0,len(st1[0])):
+    if(flag==False):
         break
-    k = 1
-    while(k < num and string[0][i] == string[k][i]):
-        k+=1
-    if(k == num):
+    j=1
+    while(j<num and st1[0][i]==st1[j][i]):
+        j+=1
+    if(j==num):
         c+=1
     else:
         flag = False
         break
     
 for i in range(0,c):
-    print(string[0][i],end="")
+    print(st1[0][i],end="")
