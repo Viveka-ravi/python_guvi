@@ -1,5 +1,5 @@
 str = int(input())
-str = list(str)
+str = list(str(str))
 str_2 = ""
 length = len(str)
 leng = length-1
