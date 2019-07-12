@@ -3,7 +3,7 @@ str = list(str)
 str_2 = ""
 length = len(str)
 leng = length-1
-if (length == 0):
+if (length%2 == 0):
   length = len(str)//2
 else:
   length = len(str)//2+1
