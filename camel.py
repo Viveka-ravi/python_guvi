@@ -1,6 +1,6 @@
 st = input()
-st = list(str(st))
-for i in range(0,len(st),2):
-    st[i] = st[i].capitalize()
-
-print("".join(map(str, st)))
+st = st.split()
+st[0] = st[0].capitalize()
+st[1] = st[1].capitalize()
+print(st[0],end=" ")
+print(st[1])
