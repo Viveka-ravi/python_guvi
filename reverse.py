@@ -12,4 +12,4 @@ for i in range(0,length):
   str[i] = str[leng-i]
   str[leng-i] = temp
 str_1 = str_1.join(str)
-print(str)
+print(str_1)
