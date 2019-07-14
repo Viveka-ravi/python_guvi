@@ -1,9 +1,9 @@
-a = int(input())
-b = list(map(int,input().split()))
-c = 0
-for i in range(a):
-    for j in range(i,a):  
-        for k in range(j,a):
-            if b[i]<b[j]<b[k]:
-                c+=1
-print(c)
+x = int(input())
+y = list(map(int,input().split()))
+z = 0
+for i in range(x):
+    for j in range(i,x):  
+        for k in range(j,x):
+            if y[i]<y[j]<y[k]:
+                z+=1
+print(z)
